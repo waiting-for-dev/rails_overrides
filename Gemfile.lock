@@ -1,3 +1,9 @@
+PATH
+  remote: foo_engine
+  specs:
+    foo_engine (0.1.0)
+      rails (~> 6.1.3, >= 6.1.3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -194,6 +200,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
+  foo_engine!
   jbuilder (~> 2.7)
   listen (~> 3.3)
   puma (~> 5.0)
