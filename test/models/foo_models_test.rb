@@ -1,4 +1,4 @@
-require "test_helper"
+# require "test_helper"
 
 class FooEngineFooModelsTest < ActiveSupport::TestCase
   test 'not_overriden' do
