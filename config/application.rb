@@ -19,10 +19,5 @@ module TestingOverrides
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
     config.autoloader = :classic
-    config.to_prepare do
-      Dir.glob("#{Rails.root}/app/overrides/**/*_override.rb").each do |override|
-        require_dependency override
-      end
-    end
   end
 end
